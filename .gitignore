@@ -1,0 +1,35 @@
+# Archivos y directorios de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Configuración de entornos virtuales
+venv/
+env/
+ENV/
+
+# Archivos de logs
+*.log
+
+# Archivos de salida de IPython
+*.out
+
+# Archivos de configuración específicos del sistema
+*.DS_Store
+
+# Archivos generados por Jupyter con extensiones (por si acaso)
+*.nbconvert.ipynb
+*.nbconvert/
+
+# Datos específicos o archivos binarios grandes (esto depende de lo que quieras excluir)
+data/
+*.csv
+*.hdf5
+*.parquet
+*.sqlite
+
+# Otros archivos temporales o de backup
+*.bak
+*.swp
